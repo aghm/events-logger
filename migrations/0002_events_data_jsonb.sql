@@ -1,0 +1,1 @@
+ALTER TABLE events ALTER COLUMN data TYPE jsonb USING data::jsonb;

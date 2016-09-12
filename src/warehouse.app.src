@@ -1,0 +1,20 @@
+{application, warehouse,
+ [
+  {description, "REST based HTTP event logging server"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  cowboy
+                 ]},
+  {mod, { warehouse_app, []}},
+  {env, [
+          {http_port, 9080},
+          {db_pool, 20},
+          {db_host, ""},
+          {db_user, ""},
+          {db_pass, ""},
+          {db_name, ""}
+        ]}
+ ]}.

@@ -1,0 +1,12 @@
+.eunit
+deps
+logfile
+*.o
+*.beam
+*.plt
+erl_crash.dump
+ebin
+rel/warehouse
+.concrete/DEV_MODE
+.rebar
+rel/warehouse
